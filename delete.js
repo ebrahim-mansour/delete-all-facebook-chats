@@ -22,18 +22,18 @@ function myLoop() {
           found.click()
 
           setTimeout(function () {
-              console.log("found1", document.querySelector("[aria-label='Delete chat']").lastElementChild.lastElementChild.lastElementChild.firstElementChild.querySelector('span'))
-              document.querySelector("[aria-label='Delete chat']").lastElementChild.lastElementChild.lastElementChild.firstElementChild.click()
-          }, 1500)
+
+            document.querySelector("[aria-label='Delete chat']").lastElementChild.lastElementChild.lastElementChild.firstElementChild.click()
+          }, 1000)
         }
-      }, 1500)
+      }, 1000)
     }
       
     i++;
     if (i < 100) {
       myLoop();
     }
-  }, 3000)
+  }, 2000)
 }
 
 myLoop();  
