@@ -6,3 +6,5 @@ Instead of deleting chats in facebook one by one, run the snippet and enjoy watc
 3. Open the console of the browser.
 4. Run the snippet in the file delete.js
 5. Enjoy!
+
+You can increase the speed of the script by decreasing the time of the setTimeout function.
